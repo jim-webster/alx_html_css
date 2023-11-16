@@ -1,0 +1,62 @@
+/* Reset some default styles for consistency across browsers */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the base font size and family */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Set a max-width for the main content to improve readability */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add some basic styling to headings */
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Add some spacing to paragraphs for better readability */
+p {
+  margin-bottom: 15px;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style lists */
+ul, ol {
+  margin-bottom: 15px;
+}
+
+/* Style images to be responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
