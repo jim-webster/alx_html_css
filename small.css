@@ -1,0 +1,15 @@
+/* Start defining 80% as width */
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+
+.container-wrapper {
+    width: 80%;
+    background-color: white;
+}
+
+/* End */
